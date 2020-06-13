@@ -15,7 +15,8 @@ const db = knex({
     host : '127.0.0.1',
     user : 'postgres',
     password : 'root',
-    database : 'smart-brain'
+    port: '5432',
+    database : 'facedatabase'
   }
 });
 
